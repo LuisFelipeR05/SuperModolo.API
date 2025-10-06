@@ -10,7 +10,7 @@ class userIn(BaseModel):
 
 users = []
 
-app = FastAPI(title="cadastr de usuario")
+app = FastAPI(title="cadastro de usuario")
 
 @app.post("/users/")
 async def add_new_user(user: userIn):
